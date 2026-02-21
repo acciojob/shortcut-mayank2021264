@@ -1,5 +1,13 @@
 function shortcut(s1, s2) {
   // your code here
+	let str="";
+	if(s1.length !== 0 && s2.length !==0){
+		str += s1[0] + s2[0];
+	}
+	else{
+		return "";
+	}
+	return str;
 }
 
 // Do not change the code below.
